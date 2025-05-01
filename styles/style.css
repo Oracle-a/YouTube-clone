@@ -1,0 +1,94 @@
+@media (max-width: 320px) {
+  .full-info{
+    grid-template-columns: 1fr;
+  } 
+}
+@media (min-width: 321px) {
+  .full-info{
+    grid-template-columns: repeat(2, 1fr);
+  } 
+  
+}
+@media (min-width: 768px) {
+  .full-info{
+    grid-template-columns: repeat(3, 1fr);
+  } 
+  
+}
+
+@media (min-width: 1025px) {
+  .full-info{
+    grid-template-columns: repeat(4, 1fr);
+  }  
+}
+
+
+body{
+  margin: 0;
+}
+
+p{
+  font-family:Roboto, Arial;
+}
+.header{
+display: flex;
+flex-direction: row;
+height: 55px;
+justify-content: space-between;
+}
+.left-header{
+display: flex;
+align-items: center;
+}
+
+.hamburger-icon{
+height: 24px;
+margin-left: 24px;
+margin-right: 24px;
+}
+.youtube-icon{
+width: 50px;
+}
+.video-title{
+  font-size: 0.625rem;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.video-author{
+  font-size: 0.625rem;
+  color: gray;
+  margin-bottom: 3px;
+  margin-top: 0px;
+}
+.video-details{
+  font-size: 0.625rem;
+  color: gray;
+  margin-top: 0px;
+}
+.thumbnail{
+  width: 100%;
+}
+.thumbnail-grid{
+  margin-bottom: 5px;
+}
+
+.channel-div{
+  vertical-align: top;
+}
+.channel-dp{
+  width: 1.25rem;
+  border-radius: 10px;
+}
+.video-details-div{
+
+}
+.about-video{
+  display: grid;
+  grid-template-columns: 1.563rem 1fr;
+}
+.full-info{
+  display: grid;
+  column-gap: 10px;
+  row-gap: 5px;
+}
